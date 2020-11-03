@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Stoke&display=swap'); 
+/* verde tozzo: #68cf00 */
+/* verde nego: #60aa16 */
+
+body{
+ margin: 0 !important;
+ padding: 0;
+ margin-left: 0;
+ font-family: 'Poppins', sans-serif !important;
+}
+
+
+/* start site */
+
+
+.bgTeste{
+  background-image: url(../images/bgteste.jpg);
+  background-size: cover;
+}
+
+
+/* parte de cima dashboard */
+.logoSize{
+    width: 120px;
+    height: 100px;    
+}
+.bgLogo{
+  width: 100%; 
+}
+.bgLogo2{
+  width: 100%;
+  display: none; 
+}
+
+
+.bgTyped{  
+  height: 200px;
+}
+.estrelinha{
+  color: rgb(255, 205, 79);
+}
+
+
+
+.pgAcessoH{
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #000;  
+}
+.pgAcessoH:hover{  
+  color: #000000;
+}
+.pgAcesso{
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+.pgAcesso:hover{    
+  color: #68cf00 !important;
+}
+
+
+
+/* fichas de treino css */
+.verdeRF{
+  color: #60aa16 !important;
+}
+.verdeRF:hover{
+ color: #60aa16 !important;
+ text-decoration: none;
+}
+
+/* fim fichas de treino css */
+
+
+
+
+
+.logoShorcut{
+  cursor: pointer;
+}
+.destaque{
+  font-weight: bold;  
+}
+.iconFicha{
+  color: rgb(12, 73, 241)
+}
+.bgdiag{  
+  background-color: #60aa16;
+  -webkit-transform: skew(-30deg);
+      -ms-transform: skew(-30deg);
+          transform: skew(-30deg);
+}
+
+.iconDieta{
+  color: crimson;
+}
+.iconVideos{
+  color: rgb(252, 161, 41);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS DO TYPED */
+.text-js{
+    opacity: 0;
+  }
+  /* .cursor{
+    display: block;
+    position: absolute;
+    height: 70%;
+    top: 0;
+    right: -5px;
+    width: 2px;    
+    background-color: #000;
+    z-index: 1;
+    animation: flash 0.5s none infinite alternate;
+  } */
+  @keyframes flash{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+  } 
+  /* // Rest of CSS (Purely for this pen) */
+  /* // Text Can be styled just like normal */
+  .headline{
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+  .headline h1{
+    letter-spacing: 1.6px;
+    font-weight: 300;
+}
+    
+  .credit{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  /* FIM DO TYPED CSS */
+
+
+
+
+
+
+  @media only screen and (max-width: 580px){
+
+ .headline{
+    margin: 20px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;    
+}
+.pgAcessoH{
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+.pgAcessoH:hover{
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.bgLogo{
+  width: 100%;
+  display: none; 
+}
+.bgLogo2{
+  width: 100%;
+  display: block;
+}
+   
+
+  }

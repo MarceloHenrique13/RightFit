@@ -1,0 +1,877 @@
+ @import url('https://fonts.googleapis.com/css?family=Stoke&display=swap'); 
+ @import url('https://fonts.googleapis.com/css?family=Poppins|Stoke&display=swap'); 
+/* verde tozzo: #68cf00 */
+/* verde nego: #60aa16 */
+/* verde total pass: #449d44 */
+
+body{
+  margin: 0;
+  padding: 0;
+  margin-left: 0;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+.box{
+  margin-top: 9em !important;
+}
+
+/* inicio navbar */
+.navbarBG{
+  background-color: rgb(19, 19, 19) !important;
+}
+
+.navbarBG2{
+  background-color: #60aa16 !important;
+}
+
+ .navbar-toggler{
+   border: none !important;
+   outline: none !important;
+ }
+ .text-span{
+   color: #68cf00;
+ }
+
+.logoNav{
+  width: 92px;
+  height: 62px;  
+}
+
+
+/* fim navbar */
+
+/* bgstyle */
+
+.bgHome{
+  /* background-color: #60aa16; */
+  background-image: url(../images/homeBg1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 700px;
+}
+
+
+
+/* .caraMobile{
+  width: 47.500em;
+  height: 32.500em;
+} */
+
+.txtHome{
+  font-size: 4em;
+}
+
+.txtTopo{
+  padding: 50px;
+}
+
+/* bgstyle */
+
+
+
+
+/* modal */
+
+.bcgModal{
+  background-color: #252525 !important;
+}
+
+.logoSize{
+  width: 240px;
+  height: 120px;
+  justify-content: center;
+}
+
+.verdeRF{
+  color: #60aa16 !important;
+}
+.verdeRF:hover{
+ color: #60aa16 !important;
+}
+
+.botaoLogin a{
+  font-size: 1.4em;
+  color: #60aa16 !important;      
+}
+
+.botaoLogin a:hover{
+  text-decoration: none;       
+}
+
+
+/* fim modal */
+
+
+.bannerTopo{
+  width: 100%;
+  background-size: cover;
+}
+
+
+/* inicio sobre nós */
+.wrapper_text_about{
+  padding: 20px;
+  margin-top: 10%;
+  font-family: 'Poppins', sans-serif !important;
+}
+.title-contact{
+  padding: 45px;
+  margin-right: -20px;
+  text-align: center;
+}
+.wrapper_about_section{
+    margin-top: 2rem;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+.title_about{
+    text-align: center;
+}
+.title_about h2{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  margin-top: .2rem;
+}
+.wrapper_text_about label{
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+.wrapper_button_about{
+    text-align: left;
+}
+.btn_about_action{
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    height: 45px;
+    color: white;
+    background: #68cf00;
+    transition: all .4s;
+    font-size: 15px;
+}
+.btn_about_action:hover{
+    box-shadow: 2px 2px 2px 2px rgba(38, 0, 255,0.5);
+}
+.btn_plans{
+  width: 200px;
+  border-radius: 4px;
+  border: none;
+  height: 45px;
+  color: white;
+  background: #68cf00;
+  transition: all .4s;
+  font-size: 15px;
+}
+.selosdeapps{
+  padding: 10px;
+}
+
+.selosdeapps img{
+  margin-left: -10px;
+}
+
+/* Dispositivo - Ipad */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .wrapper_text_about{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+/* fim sobre nós */
+
+
+
+/* inicio treine em casa ou acad */
+
+.wrapper_services h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 2.2rem;
+  margin-top: .2rem;
+}
+.wrapper_services_content {
+  background: white;
+  border-radius: 2px;
+  padding: 30px;
+}
+.wrapper_services_content--text h3 {
+  font-size: 27px;
+  text-align: left;
+  margin-top: 1.3rem;
+}
+.wrapper_services_content--text p {
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+/* fim treine em casa ou acad */
+
+.imgIphoneAtTheGym{
+  border-radius: 20px;
+  margin-top: 3em !important;
+}
+
+/* inicio beneficios */
+.feature-img img{
+  width: 100%;
+}
+.feature-img{
+ position: relative;
+}
+  .feature-details{
+  padding: 20px;
+  text-align: left;
+  }
+  .feature-details h4{
+  font-weight: 600;
+  margin-top: 20px;
+  }
+.feature-box{
+ box-shadow: 0 0 10px 1px rgba(37,37,214,0.18);
+ margin-bottom: 30px;
+}
+h4{
+  color: #68cf00;
+}
+.link{
+  color: #68cf00;
+  font-size: 18px;
+}
+.link:hover{
+  text-decoration: none; 
+  color: #68cf00;
+}
+.link, .link:visited, .link:active {
+	text-decoration: none;
+} 
+.link:hover {
+  text-decoration: none;  
+	color:#68cf00; 
+  font-size: 120%; 
+  transition: .5s;
+  }
+  
+  @media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    .feature-box{
+        margin-bottom: 5%;
+    }
+}
+/* fim beneficios */
+
+
+/* inicio serviços */
+.services .icon-box {
+  padding: 50px 20px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+  height: 210px;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.services .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #68cf00;
+}
+
+.services .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services .title a {
+  color: #343a40;
+}
+
+.services .icon-box:hover .icon {
+  background: #fff;
+  border: 2px solid #68cf00;
+}
+
+.services .icon-box:hover .icon i {
+  color: #68cf00;
+}
+
+.services .icon-box:hover .title a {
+  color: #68cf00;
+}
+
+.services .description {
+  line-height: 24px;
+  font-size: 14px;
+}
+/* fim serviços */
+
+
+
+/* inicio cta */
+.cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../images/treinos.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+.cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+.cta p {
+  color: #fff;
+  font-size: 17px;
+}
+.cta .cta-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.cta .cta-btn:hover {
+  background: #68cf00;
+  border-color: #68cf00;
+  color: #fff;
+}
+/* fim cta */
+
+
+/* inicio formulario */
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #68cf00;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #68cf00;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #000;
+}
+
+.contact .info .email, .contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #68cf00;
+  color: #fff;
+}
+
+.contact{
+  width: 100%;
+  background: #fff;
+}
+
+.contact .form-group {
+  padding-bottom: 8px;
+}
+
+
+.contact .sent-message {
+  display: none;
+  color: #fff;
+  background: #68cf00;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #68cf00;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact ,.contact  textarea {
+  border-radius: 3;
+  box-shadow: none;
+  font-size: 17px;
+}
+
+.contact input {
+  height: 44px;
+}
+
+.contact textarea {
+  padding: 10px 12px;
+}
+
+.contact button[type="submit"] {
+  background: #68cf00;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* fim formulario */
+
+
+/* inicio footer */
+.text-spanFooter{
+  color: #68cf00;  
+}
+.text-span:hover{
+  color: #68cf00;
+  text-decoration: none;
+}
+#footer {
+  color: #000;
+  font-size: 14px;
+  background: #f2f2f2;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #f9f9f9;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #444444;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #68cf00;
+  font-size: 20px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  font-size: 16px;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #68cf00;
+}
+
+#footer .footer-newsletter {
+  font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #bfdcf7;
+}
+
+#footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #68cf00;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+ }
+
+#footer .footer-newsletter form input[type="submit"]:hover {
+  background: #68cf00;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+  color: #444444;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background:  #68cf00;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #68cf00;
+  color: #fff;
+  text-decoration: none;
+}
+
+span{
+  color: #68cf00;
+}
+/* fim footer */
+
+
+.wrapper_contact_section_icons{
+  padding: 50px;
+}
+
+.wrapper_contact_item{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.wrapper_contact_item_text{
+  padding: 2px;
+  margin-top: .2rem;
+}
+
+.wrapper_contact_item h2{
+  font-size: 20px;
+}
+
+.wrapper_contact_item img{
+   width: 10%;
+}
+
+
+
+/* CSS PLANOS */
+ol, ul {
+  list-style: none;
+  }
+  
+  body {
+  line-height: 1;
+  }
+  
+  strong {
+  color: rgba(39,65,90,1);
+  font-weight: 600;
+  }
+  
+  
+  
+  .layer {
+  clear: both;
+  width: 100%;
+  height: auto;
+  display: block;
+  }
+  
+  .layer > section, .layer > article {
+  clear: both;
+  width: 100%;
+  height: auto;
+  max-width: 1092px;
+  margin: 0 auto;
+  display: block;
+  }
+  
+  .third {
+  width: 100%;
+  margin: 0 30px 0 0;
+  display: inline-block;
+  }
+  
+  .plan-tier {
+  background: rgba(255, 255, 255, 0.87);
+  vertical-align: baseline;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  cursor: pointer;
+  overflow: hidden;
+  }
+  
+  
+  .plan-tier h4 {
+  padding: 18px 0 15px;
+  margin: 0 0 30px;
+  background: #00a1ff;
+  color: white;
+  }
+  
+  .plan-tier {
+  cursor: pointer;
+  }
+  
+  .plan-tier sup {
+  position: relative;
+  right: -9px;
+  }
+  
+  .plan-tier ul {
+  margin: 30px 0 0;
+  border-top: 2px solid #e7f2f0;
+  }
+  
+  .plan-tier ul li {
+  font-size: 1.25em;
+  padding: 18px 0;
+  color: rgba(39,65,90,.9);
+  border-bottom: 2px solid #e7f2f0;
+  }
+  
+  sup {
+  vertical-align: top;
+  }
+  
+  .plan-tier .plan-price {
+  font-size: 5em;
+  font-weight: 300;
+  letter-spacing: -3px;
+  }
+  
+  .plan-tier sub {
+  vertical-align: bottom;
+  position: relative;
+  bottom: .875em;
+  }
+  
+  .plan-tier .early-adopter-price {
+  color: #0091e5;
+  }
+  p:first-of-type {
+  margin-top: 0;
+  }
+  
+  small, del {
+  color: rgba(39,65,90,.5);
+  font-size: 1em;
+  line-height: 1.5em;
+  }
+  
+  s, strike, del {
+  text-decoration: line-through;
+  }
+  
+  .plan-tier.callout h6 {
+  width: 100%;
+  padding: 15px 0 14px;
+  background: #449d44;
+  color: rgba(39,65,90,.5);
+  font-size: 1.25em;
+  }
+  
+  .plan-tier.callout h4 {
+  background-color: #449d44;
+  }
+  /* FOM CSS PLANOS */
+  
+
+
+
+/* media queries */
+
+
+@media (max-width: 480px) {
+  .txtTopo{
+    padding: 30px;
+  }
+  .txtHome{
+    font-size: 3em !important;
+    text-align: center !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+ 
+  .txtHome{
+    font-size: 2.4em !important;
+    text-align: left;
+  }
+
+  .bgHome{
+  background-image: url(../images/homeBg1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 700px;
+  padding-top: 80px !important;
+}
+
+}
+
+@media (max-width: 1024px) {
+  .txtTopo{    
+    padding-left: 40px !important;
+  }
+  .txtHome{
+    font-size: 3.4em;
+    text-align: left;
+  }
+
+  .bgHome{
+  background-image: url(../images/homeBg1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 700px;
+  padding-top: 80px !important;
+}
+
+}

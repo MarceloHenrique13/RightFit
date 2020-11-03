@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="images/icone.svg">
+  <title>Right Fit</title>
+</head>
+
+<body>
+
+  <!-- inicio navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <img src="images/NOVO_LOGO.svg" alt="Logo da empresa" class="logoNav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto pl-3">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="exercicios.html">Treinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dieta.html">Dietas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto mx-3 pl-3">
+        <li class="nav-item">
+          <a class="nav-link my-2 my-sm-0 active" data-toggle="modal" data-target="#exampleModal2"
+            href="telaLogin/index.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class=" btn  btn-outline-light" data-toggle="modal" data-target="#exampleModal"
+            href="telaLogin/cadastro.html">Cadastre-se</a>
+        </li>
+
+
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content bcgModal text-light">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                  <span class="fas fa-times fa-1x close verdeRF" aria-hidden="true" data-dismiss="modal"
+                    aria-label="Close"></span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="bgLogin">
+                  <div class="container">
+                    <div class="box">
+                      <div class="justify-content-center mx-auto px-4 pt-2">
+                        <img src="images/NOVO_LOGO.svg" alt="" class="logoSize mx-auto d-block pb-4">
+                        <form action="" id="loginForm">
+                          <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input class="form-control" type="text" name='username' placeholder="Nome de usuário" />
+                          </div>
+                          <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input class="form-control" type="password" name='password' placeholder="Senha" />
+                          </div>
+                          <div class="form-group">
+                            <button type="button" class="btn btn-def btn-block botaoLogin verdeRF"><a
+                                href="../dashboardTcc/index.html" target="_blank">Login</a></button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fim modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content bcgModal text-light">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                  <span class="fas fa-times fa-1x close verdeRF" aria-hidden="true" data-dismiss="modal"
+                    aria-label="Close"></span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="">
+                  <div class="container">
+                    <div class="box">
+                      <div class="justify-content-center mx-auto px-4 py-1">
+                        <img src="images/NOVO_LOGO.svg" alt="" class="logoSize mx-auto d-block pb-4">
+                        <form id="loginForm">
+                          <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                              <h5>Nome</h5>
+                              <div class="form-group input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                <input id="name" class="form-control" type="text" name='username'
+                                  placeholder="Seu nome" />
+                              </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                              <h5>E-mail</h5>
+                              <div class="form-group input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                <input id="email" class="form-control" type="email" name='password'
+                                  placeholder="Seu e-mail" />
+                              </div>
+                            </div>
+                          </div>
+                          <h5>Senha</h5>
+                          <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="password" class="form-control" type="password" name='password'
+                              placeholder="Sua senha" />
+                          </div>
+                          <h5>Confirmar senha</h5>
+                          <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="passwordConf" class="form-control" type="password" name='password'
+                              placeholder="Sua senha novamente" />
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input type="checkbox"> Eu concordo com os <a href="#" class="verdeRF">Termos e
+                                Condições</a>
+                            </label>
+                          </div>
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-def btn-block botaoLogin verdeRF">Cadastre-se</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fim modal -->
+
+
+
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <!-- fim navbar -->
+
+
+
+
+
+  <!-- inicio formulario -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="row p-5">
+        <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+          <div class="info">
+            <div class="address">
+              <i class="fa fa-location-arrow" aria-hidden="true"></i>
+              <h4>Endereço</h4>
+              <p>Av.Lins de Vasconcelos</p>
+            </div>
+
+            <div class="email">
+              <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              <h4>Email:</h4>
+              <p>contato.rightfit@gmail.com</p>
+            </div>
+
+            <div class="phone">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <h4>Telefone:</h4>
+              <p>11 967850844</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0">
+          <form action="#" method="post" role="form">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                  data-rule="email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="Telefone" id="Telefone" placeholder="Telefone"
+                data-rule="minlen:4" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                placeholder="Mande sua Mensagem...."></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="text-center"><button type="submit">Enviar</button></div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+  <!-- fim formulario -->
+
+
+
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-2 col-md-2 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="exercicios.html">Treinos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="dieta.html">Dietas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-5 col-md-5 footer-contact">
+            <h3>Right<span class="span">Fit</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse itaque, laborum quaerat illo aut
+            </p>
+          </div>
+
+          <!-- <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Sobre nós</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Beneficios</a></li>
+            </ul>
+          </div> -->
+
+
+          <div class="col-lg-5 col-md-5 footer-newsletter ml-auto">
+            <h4>Newsletter!</h4>
+            <p>Inscreva-se para receber notícias e promoções!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Enviar">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="m-md-auto text-center">
+        <div class="copyright">
+          &copy; <strong><span>Right</span></strong>Fit todos os direitos reservados
+        </div>
+        <div class="credits">
+          Feito por <a href="#" class="text-span">RightFit</a>
+        </div>
+      </div>
+      <!-- <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="fa fa-whatsapp"><i class="whatsapp"></i></a>
+        <a href="#" class="fa fa-instagram"><i class="instagram"></i></a>
+        <a href="#" class="fa fa-facebook"><i class="facebook"></i></a>
+        <a href="#" class="fa fa-linkedin"><i class="linkedin"></i></a>
+      </div> -->
+    </div>
+  </footer>
+  <!-- Final Footer -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+  <!-- rolagem -->
+  <script>
+    $(document).ready(function () {
+      $("#quemSomos").on('click', function (event) {
+        if (this.hash !== "#quemSomos") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+  <!-- fim rolagem   -->
+
+</body>
+
+</html>

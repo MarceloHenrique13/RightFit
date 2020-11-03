@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Stoke&display=swap'); 
+/* verde tozzo: #68cf00 */
+/* verde nego: #60aa16 */
+/* verde total pass: #449d44 */
+
+body{
+    /* background-color: rgb(29, 29, 29); */
+    background-image: url(../images/bgteste.jpg);
+    /* background-repeat: no-repeat;        
+    background-size: cover; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.embrulho{
+    max-width: 1100px;
+    height: auto;
+}
+
+.txtColor{
+    color: #449d44;
+}
+
+.mainColor{
+    width: 100%;
+    height: auto;
+    background-color: rgb(63, 63, 87);
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;
+}
+
+.mainColor2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(63, 63, 87);
+    background-color: rgb(44, 44, 44);
+    border-radius: 10px;    
+}
+
+.marginNav{
+    margin: 0 8px;
+}
+
+.mainArea{
+    width: 100%;
+    height: auto;    
+    border-radius: 10px;
+}
+
+.borderArea{
+    border: 2px solid red;
+}
+
+.editData a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.perfilImg{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url(../images/profileNego.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 6px solid rgb(219, 219, 219);
+}
+
+.bgTyped{  
+    height: 150px;
+  }
+
+.bgTyped div{
+    color: #fff;
+}
+
+.borda{
+    border-bottom: 3px solid #449d44;       
+}
+
+
+.navIcone{
+    width: 82px;
+    height: 52px; 
+}
+
+.navbarEdit ul li{
+    font-size: 18px;
+}
+
+
+.sairBtn li a{
+    color: #ac464e !important;
+    font-weight: bold;
+}
+.sairBtn li a:hover{
+    color: #cf2937 !important;
+    font-weight: bold;
+}
+
+/* CSS DIETAS */
+
+.txtDietas p{
+    font-size: 1.3em;
+    line-height: 32px;
+    letter-spacing: 0.5px;    
+}
+
+/* CSS DIETAS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS PLANOS */
+ol, ul {
+list-style: none;
+}
+
+body {
+line-height: 1;
+}
+
+strong {
+color: rgba(39,65,90,1);
+font-weight: 600;
+}
+
+
+
+.layer {
+clear: both;
+width: 100%;
+height: auto;
+display: block;
+}
+
+.layer > section, .layer > article {
+clear: both;
+width: 100%;
+height: auto;
+max-width: 1092px;
+margin: 0 auto;
+display: block;
+}
+
+.third {
+width: 100%;
+margin: 0 30px 0 0;
+display: inline-block;
+}
+
+.plan-tier {
+background: rgba(255, 255, 255, 0.87);
+vertical-align: baseline;
+border-radius: 3px;
+-moz-border-radius: 3px;
+cursor: pointer;
+overflow: hidden;
+}
+
+
+.plan-tier h4 {
+padding: 18px 0 15px;
+margin: 0 0 30px;
+background: #00a1ff;
+color: white;
+}
+
+.plan-tier {
+cursor: pointer;
+}
+
+.plan-tier sup {
+position: relative;
+right: -9px;
+}
+
+.plan-tier ul {
+margin: 30px 0 0;
+border-top: 2px solid #e7f2f0;
+}
+
+.plan-tier ul li {
+font-size: 1.25em;
+padding: 18px 0;
+color: rgba(39,65,90,.9);
+border-bottom: 2px solid #e7f2f0;
+}
+
+sup {
+vertical-align: top;
+}
+
+.plan-tier .plan-price {
+font-size: 5em;
+font-weight: 300;
+letter-spacing: -3px;
+}
+
+.plan-tier sub {
+vertical-align: bottom;
+position: relative;
+bottom: .875em;
+}
+
+.plan-tier .early-adopter-price {
+color: #0091e5;
+}
+p:first-of-type {
+margin-top: 0;
+}
+
+small, del {
+color: rgba(39,65,90,.5);
+font-size: 1em;
+line-height: 1.5em;
+}
+
+s, strike, del {
+text-decoration: line-through;
+}
+
+.plan-tier.callout h6 {
+width: 100%;
+padding: 15px 0 14px;
+background: #449d44;
+color: rgba(39,65,90,.5);
+font-size: 1.25em;
+}
+
+.plan-tier.callout h4 {
+background-color: #449d44;
+}
+/* FOM CSS PLANOS */
+
+
+
+/* css videos */
+
+.secVideos p{
+    font-size: 18px;
+}
+.ponteiro:hover{
+    cursor: pointer;
+}
+/* css videos */
+
+
+
+
+
+
+
+@media only screen and (max-width: 580px){
+    .graficoSumir{
+        display: none;
+    }
+}

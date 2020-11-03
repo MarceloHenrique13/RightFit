@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" href="images/icone.svg">
+    <link rel="stylesheet" href="css/hover.css">
+    <title>Dashboard RightFit</title>
+</head>
+
+<body>
+
+    <div class="embrulho mx-auto container">
+
+        <div class="marginNav">
+            <div class="mainColor py-2 mt-5">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-light">
+                    <img src="./images/NOVO_LOGO.svg" class="img-fluid navIcone" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbarEdit" id="navbarNav">
+                        <ul class="navbar-nav pl-3">
+                            <li class="nav-item hvr-underline-reveal">
+                                <a class="nav-link" href="index2.html"><span class="fas fa-home px-1"></span>Home<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item hvr-underline-reveal">
+                                <a class="nav-link" href="fichas.html"> <span class="fas fa-file-alt px-1"></span>
+                                    Fichas de
+                                    Treino</a>
+                            </li>
+                            <li class="nav-item hvr-underline-reveal">
+                                <a class="nav-link" href="dieta.html"> <span class="fas fa-apple-alt px-1"></span>
+                                    Dieta</a>
+                            </li>
+                            <li class="nav-item hvr-underline-reveal active">
+                                <a class="nav-link" href="videos.html"> <span class="fas fa-video px-1"></span> Vídeos
+                                    de
+                                    Treino</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto sairBtn">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html"> <span
+                                        class="fas fa-sign-out-alt px-1"></span>Sair</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!--  -->
+
+
+        <div class="mt-2 py-3 mainArea">
+
+            <div class="row">
+
+                <div class="col-11 mainColor mx-auto mt-3 text-light txtDietas py-4">
+                    <h2 class="text-center">Vídeos de Treino</h2>
+
+                    <div class="">
+                        <h4 class="py-5">Treino de peito e tríceps</h4>
+
+                        <div class="container">
+                            <div class="row secVideos">
+                                <div class="col-6">
+                                    <img src="./videos/thumbCross.jpg" alt="" class="img-fluid ponteiro">
+                                    <p class="py-3">Crossover na polia</p>
+                                </div>
+                                <div class="col-6">
+                                    <img src="./videos/thumbTriceps.jpg" alt="" class="img-fluid ponteiro">
+                                    <p class="py-3">Tríceps corda</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+
+    <!-- rolagem -->
+    <!-- <script type="text/javascript">
+        $(document).ready(function () {
+            const menuItems = document.querySelectorAll('.scroll');
+
+            function getScrollTopByHref(element) {
+                const id = element.getAttribute('href');
+                return document.querySelector(id).offsetTop;
+            }
+
+            function scrollToPosition(to) {
+                // Caso queira o nativo apenas
+                // window.scroll({
+                // top: to,
+                // behavior: "smooth",
+                // })
+                smoothScrollTo(0, to);
+            }
+
+            function scrollToIdOnClick(event) {
+                event.preventDefault();
+                const to = getScrollTopByHref(event.currentTarget) +200;
+                scrollToPosition(to);
+            }
+
+            menuItems.forEach(item => {
+                item.addEventListener('click', scrollToIdOnClick);
+            });
+
+            // Caso deseje suporte a browsers antigos / que não suportam scroll smooth nativo
+            /**
+             * Smooth scroll animation
+             * @param {int} endX: destination x coordinate
+             * @param {int) endY: destination y coordinate
+             * @param {int} duration: animation duration in ms
+             */
+            function smoothScrollTo(endX, endY, duration) {
+                const startX = window.scrollX || window.pageXOffset;
+                const startY = window.scrollY || window.pageYOffset;
+                const distanceX = endX - startX;
+                const distanceY = endY - startY;
+                const startTime = new Date().getTime();
+
+                duration = typeof duration !== 'undefined' ? duration : 1200;
+
+                // Easing function
+                const easeInOutQuart = (time, from, distance, duration) => {
+                    if ((time /= duration / 2) < 1) return distance / 2 * time * time * time * time + from;
+                    return -distance / 2 * ((time -= 2) * time * time * time - 2) + from;
+                };
+
+                const timer = setInterval(() => {
+                    const time = new Date().getTime() - startTime;
+                    const newX = easeInOutQuart(time, startX, distanceX, duration);
+                    const newY = easeInOutQuart(time, startY, distanceY, duration);
+                    if (time >= duration) {
+                        clearInterval(timer);
+                    }
+                    window.scroll(newX, newY);
+                }, 1000 / 60); // 60 fps
+            };
+        });
+    </script> -->
+
+
+
+    <!--  -->
+
+
+    <script>
+        function autoType(elementClass, typingSpeed) {
+            var thhis = $(elementClass);
+            thhis.css({
+                "position": "relative",
+                "display": "inline-block"
+            });
+            thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+            thhis = thhis.find(".text-js");
+            var text = thhis.text().trim().split('');
+            var amntOfChars = text.length;
+            var newString = "";
+            thhis.text("");
+            setTimeout(function () {
+                thhis.css("opacity", 1);
+                thhis.prev().removeAttr("style");
+                thhis.text("");
+                for (var i = 0; i < amntOfChars; i++) {
+                    (function (i, char) {
+                        setTimeout(function () {
+                            newString += char;
+                            thhis.text(newString);
+                        }, i * typingSpeed);
+                    })(i + 1, text[i]);
+                }
+            }, 500);
+        }
+
+        $(document).ready(function () {
+            // Now to start autoTyping just call the autoType function with the 
+            // class of outer div
+            // The second paramter is the speed between each letter is typed.   
+            autoType(".type-js", 100);
+        });
+    </script>
+
+    <!-- fim rolagem   -->
+
+
+
+
+
+
+
+</body>
+
+</html>

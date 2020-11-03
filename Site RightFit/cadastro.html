@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/icone.svg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Right Fit</title>
+</head>
+
+<body class="bcgModal">
+
+    <!-- inicio navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbarBG2 fixed-top">
+        <img src="images/NOVO_LOGO.svg" alt="Logo da empresa" class="logoNav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto pl-3">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="exercicios.html">Treinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dieta.html">Dietas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="homePlanos.html">Planos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mx-3 pl-3">
+                <li class="nav-item">
+                    <a class="nav-link my-2 my-sm-0 active"
+                        href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class=" btn  btn-outline-light" 
+                        href="cadastro.html">Cadastre-se</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- fim navbar -->
+
+
+    <div class="box bcgModal text-light col-12 col-sm-12 col-md-12 col-lg-6 justify-content-center mx-auto mt-5 pb-5">
+        <div class="justify-content-center mx-auto px-4 py-1">
+            <img src="images/NOVO_LOGO.svg" alt="" class="logoSize mx-auto d-block p-4">            
+            <form id="registerForm">
+                <p id="error" class="text-center"></p>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <h5>Nome</h5>
+                        <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="name" class="form-control" type="text" name='username' placeholder="Seu nome" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <h5>E-mail</h5>
+                        <div class="form-group input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="email" class="form-control" type="email" name='password'
+                                placeholder="Seu e-mail" />
+                        </div>
+                    </div>
+                </div>
+                <h5>Senha</h5>
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="password" class="form-control" type="password" name='password' placeholder="Sua senha" />
+                </div>
+                <h5>Confirmar senha</h5>
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                    <input id="passwordConf" class="form-control" type="password" name='password'
+                        placeholder="Sua senha novamente" />
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Eu concordo com os <a href="#" class="text-success">Termos e
+                            Condições</a>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-def btn-block btn-outline-success"><a >Cadastre-se</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <script src="js/cadastro.js"></script>
+
+
+    <!-- rolagem -->
+    <script>
+        $(document).ready(function () {
+            $("#quemSomos").on('click', function (event) {
+                if (this.hash !== "#quemSomos") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+    <!-- fim rolagem   -->
+
+</body>
+
+</html>
